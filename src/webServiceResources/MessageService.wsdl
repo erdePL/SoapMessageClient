@@ -252,7 +252,7 @@
   </wsdl:binding>
   <wsdl:service name="MessageServiceImplService">
     <wsdl:port binding="tns:MessageServiceImplServiceSoapBinding" name="MessageServiceImplPort">
-      <soap:address location="http://localhost:8080/SoapMessageService-1.0-SNAPSHOT/MessageService"/>
+      <soap:address location="http://desktop-3qrni9m:10080/SoapMessageService-1.0-SNAPSHOT/MessageService"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
